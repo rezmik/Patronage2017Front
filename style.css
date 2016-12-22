@@ -1,0 +1,46 @@
+/* EDYCJA GOTOWYCH ELEMENTÓW */
+
+span {
+	margin-top: 20px;
+	cursor: context-menu;
+	font-size: 20px;
+}
+
+/* KLASY W PLIKU HTML */
+
+.main {
+	min-height: 90vh;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	position: relative;
+	overflow: hidden;
+	flex-direction: column;
+}
+
+.main .myBox {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+
+/* ELEMENTY NA PODSTAWIE IDENTYFIKATORÓW */
+
+#myBox {
+	width: 100px;
+	height: 100px;
+	background-color: #eee;
+}
+
+#clickCount:hover {
+	color: red;
+}
